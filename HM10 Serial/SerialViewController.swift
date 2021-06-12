@@ -34,8 +34,8 @@ final class SerialViewController: UIViewController, UITextFieldDelegate, Bluetoo
     @IBOutlet weak var bottomConstraint: NSLayoutConstraint! // used to move the textField up when the keyboard is present
     @IBOutlet weak var barButton: UIBarButtonItem!
     @IBOutlet weak var navItem: UINavigationItem!
-
-
+    @IBOutlet weak var clearBarButtonItem: UIBarButtonItem!
+    
 //MARK: Functions
     
     override func viewDidLoad() {
@@ -191,6 +191,10 @@ final class SerialViewController: UIViewController, UITextFieldDelegate, Bluetoo
     
 //MARK: IBActions
 
+    @IBAction func clearButtonPressed(_ sender: Any) {
+        mainTextView.text = nil
+    }
+    
     @IBAction func barButtonPressed(_ sender: AnyObject) {
         if serial.connectedPeripheral == nil {
             performSegue(withIdentifier: "ShowScanner", sender: self)

@@ -179,7 +179,7 @@
 				TargetAttributes = {
 					FA5AB9641B77A30E007443C8 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = B22Z7NLA6E;
+						DevelopmentTeam = HF45SX3EL4;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -397,9 +397,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Alex van der Lugt (B22Z7NLA6E)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HF45SX3EL4;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "HM10 Serial/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -420,9 +421,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Alex van der Lugt (B22Z7NLA6E)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HF45SX3EL4;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "HM10 Serial/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
